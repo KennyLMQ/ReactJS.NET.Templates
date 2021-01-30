@@ -9,3 +9,6 @@ dotnet new -i React.Template
 dotnet new reactnet-webpack
 dotnet run
 ```
+
+## Material-UI
+Using the SampleApp as a base, Material-UI is added to create a Material-UI template.
