@@ -1,0 +1,17 @@
+﻿@using React.AspNet
+<!DOCTYPE html>
+<html>
+<head>
+    @Html.Raw(ViewBag.HelmetTitle)
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    @Html.Raw(ViewBag.ServerStyles)
+    @Html.ReactGetStylePaths()
+</head>
+<body>
+	@RenderBody()
+	@Html.ReactGetScriptPaths()
+	@Html.ReactInitJavaScript()
+</body>
+</html>
